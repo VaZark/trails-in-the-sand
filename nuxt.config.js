@@ -10,8 +10,8 @@ const publicRuntimeConfig = {
   logoDark: '/logo-dark.svg',
 
   githubOwner: 'vazark',
-  githubRepository: 'personal-blog',
-  githubMainBranch: 'master',
+  githubRepository: 'trails-in-the-sand',
+  githubMainBranch: 'main',
 
   footerLinks,
 }
