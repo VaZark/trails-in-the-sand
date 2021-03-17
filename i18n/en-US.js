@@ -2,13 +2,8 @@ module.exports = {
   light: 'Light',
   dark: 'Dark',
   meta: {
-    title: 'VazM&#39;s Journey',
-    description: '',
-  },
-  contribute: {
-    title: 'Contributors',
-    blog: 'Caught a mistake or want to contribute to this blog post?',
-    edit_on_github: 'Edit this page on GitHub!',
+    title: 'VazM\'s Journey',
+    description: 'Yet Another Developer Story',
   },
   pageNotFound: {
     title: 'Page not found',

@@ -1,8 +1,8 @@
 ---
 title: Django Related Datafields
-description: Django, DRF
+description: A quick look at clean implementations of related model retrieval, creation and modification
 image: #
-publishedAt: 2021-03-17
+publishedAt: 2021-03-18
 authors:
   - name: Vasanth M
     avatarUrl: /vaz_avatar.jpg
