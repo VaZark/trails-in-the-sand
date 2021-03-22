@@ -2,7 +2,7 @@
   <div class="mb-16 items-center">
     <div class="max-w-lg mx-auto">
       <div class="flex justify-center mb-6">
-        <div>
+        <!-- <div>
           <img
             src="/welcome/content-light.svg"
             alt="welcome image"
@@ -26,7 +26,7 @@
             alt="welcome image"
             class="dark-img w-full"
           />
-        </div>
+        </div> -->
       </div>
       <div class="xl:text-lg font-medium leading-relaxed text-center">
         <p>
