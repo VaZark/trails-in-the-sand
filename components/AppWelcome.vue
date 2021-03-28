@@ -30,9 +30,10 @@
       </div>
       <div class="xl:text-lg font-medium leading-relaxed text-center">
         <p>
-          Developer/Designer<br/>
-          The best time to fix a problem is in planning<br/>
-          The next best time is right now
+          <b><i>Vasanth Mohan </i></b> <br/>
+          Application Developer <br/>
+          Problem Solver / Software Archaeologist <br/>
+          The best time to fix a problem is during planning. The next best time is right now.
         </p>
       </div>
     </div>
