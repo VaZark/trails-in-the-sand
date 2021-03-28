@@ -35,7 +35,7 @@ Meanwhile, **clean()** is used to define custom model validation, and to modify 
 
 When directly calling the **create** function from the model's Manager, the call bypasses the custom implementation. Make sure to call **save()** by creating the instance. An alternative can be to moved most of the logic into **clean()**
 
-### Signals
+## Signals
 
 Occasionally we need to perform some action that is tied to the changes in the DB but not necessarily associated with the DB/Model itself. In such cases, we can django's signal systems. The most common signals are,
 
