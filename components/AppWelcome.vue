@@ -32,7 +32,7 @@
         <p>
           <b><i>Vasanth Mohan </i></b> <br/>
           Application Developer <br/>
-          Problem Solver / Software Archaeologist <br/>
+          Solution Designer / Software Archaeologist <br/>
           The best time to fix a problem is during planning. The next best time is right now.
         </p>
       </div>
