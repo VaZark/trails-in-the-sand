@@ -43,3 +43,11 @@ Occasionally we need to perform some action that is tied to the changes in the D
 - *post-save*
 - *pre-delete*
 - *post-delete*
+
+## Managing instances
+
+- **Comparison** : To compare two model instances, use the standard Python comparison operator, `==`. Behind the scenes, that compares the primary key values of two models.
+
+- **Copying** : It is possible to easily create new instance with all fields’ values copied. Set *pk* to `None` of an existing instance. 
+
+- **Updating** : `update()` method sets a field to a particular value for all the objects in a QuerySet. However, it doesn’t run `save()` or emit the `pre_save` or `post_save` signals 
