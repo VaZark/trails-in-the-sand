@@ -20,6 +20,10 @@ Error messages are created when the serializer classes and their fields are vali
 
 `validate()` checks the fields and then runs the class level validations. We can raise errors with `ValidationError`. Custom validations are run with `validate_<field_name>(self)` for fields and in the `validate()` for the class-level validations.
 
+## Context for serializers
+
+Occasionally serializers might need additional data to perform custom / overridden operations. We can set via the *context* argument of any serializer instance. The context param conventionally takes a dictionary as input.
+
 ### Additonal context for nested serializers
 
 Nested serializers are evaluated before the current serializer. Occasionally, a child serializer might need to look up and use a parent serializer's fields or some other related data.
