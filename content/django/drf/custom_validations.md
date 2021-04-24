@@ -20,6 +20,21 @@ Error messages are created when the serializer classes and their fields are vali
 
 `validate()` checks the fields and then runs the class level validations. We can raise errors with `ValidationError`. Custom validations are run with `validate_<field_name>(self)` for fields and in the `validate()` for the class-level validations.
 
+However, we can choose to run multiple validations for a single field with the `validators` field of any Field object.
+
+```python
+def is_valid_value(value):
+  if value > 10:
+    raise serializers.ValidationError('Value cannot be higher than 10')
+
+def is_postive(value):
+  if value < 0:
+    raise serializers.ValidationError('Value cannot be negative ')
+
+class RandomSerializer(serializers.ModelSerializer):
+    value = IntegerField(validators=[is_valid_value, is_positive])
+```
+
 ## Context for serializers
 
 Occasionally serializers might need additional data to perform custom / overridden operations. We can set via the *context* argument of any serializer instance. The context param conventionally takes a dictionary as input.
