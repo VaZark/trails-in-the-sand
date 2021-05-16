@@ -1,0 +1,15 @@
+{
+  "siteMetadata": {
+    "title": "Personal Blog",
+    "author": {
+      "name": "Vasanth Mohan",
+      "summary": "who loves building, breaking down and rebuilding stuff"
+    },
+    "description": "",
+    "siteUrl": "https://nextjs-starter-blog-demo.netlify.app/",
+    "language": "en-US",
+    "social": {
+      "twitter": "vazarks"
+    }
+  }
+}
