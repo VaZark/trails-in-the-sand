@@ -1,3 +1,9 @@
+---
+slug: abstract-polymorphism
+title: Extensible design with Django Polymorphic
+authors: vaz
+tags: [polymorphism, django]
+---
 # Extensible design with Django Polymorphic
 
 ## Abstract Tables
