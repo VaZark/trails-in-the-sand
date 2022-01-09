@@ -42,6 +42,7 @@ const config = {
   ],
 
   plugins: [
+    'docusaurus-plugin-sass',
     [
       '@docusaurus/plugin-content-docs',
       {

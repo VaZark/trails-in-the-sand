@@ -1,0 +1,28 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.pythonSvg{
+  width: auto;
+  height: auto;
+  max-height: 200px;
+  max-width: 90px;
+  padding: 0 2.5px;
+
+}
+
+
+.imageRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
