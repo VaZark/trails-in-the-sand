@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktil_remaster=self.webpackChunktil_remaster||[]).push([[7218],{9640:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/polymorphism","name":"polymorphism","count":1,"permalink":"/blog/tags/polymorphism"}')}}]);

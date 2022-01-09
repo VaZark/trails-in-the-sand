@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktil_remaster=self.webpackChunktil_remaster||[]).push([[2535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Extensible design with Django Polymorphic","permalink":"/blog/abstract-polymorphism"}]}')}}]);
