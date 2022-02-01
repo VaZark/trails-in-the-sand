@@ -61,6 +61,15 @@ const config = {
         sidebarPath: require.resolve('./sidebars.js'),
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs-rust',
+        path: 'docs-rust',
+        routeBasePath: 'docs-rust',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
 
   ],
 
